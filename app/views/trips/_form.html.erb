@@ -1,0 +1,32 @@
+<h1 class="page-header"><%= page_title %></h1>
+
+<% if @trip.errors.any? %>
+  <ul class="errors">
+    <% @trip.errors.each do |field, message| %>
+      <li>
+        <strong><%= field.capitalize %></strong> <%= message %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<section class="form">
+<%= form_for @trip do |f| %>
+  <%= f.label :date %>
+  <%= f.date_field :date %>
+
+  <%= f.label :rating %>
+  <%= f.select :rating, [1, 2, 3, 4, 5]%>
+
+  <%= f.label :cost %>
+  <%= f.number_field :cost%>
+
+  <%= f.label :driver%>
+  <%= f.label @trip.driver.name %>
+
+  <%= f.label :passenger%>
+  <%= f.label @trip.passenger.name %>
+
+  <%= f.submit%>
+<% end %>
+</section>

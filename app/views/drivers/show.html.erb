@@ -1,0 +1,34 @@
+
+	<h1 class="page-header">Driver Info</h1>
+
+	<% if !@driver.is_deactivated %>
+
+	<section class="user-info">
+		<h2 class="page-subheader"><%= @driver.name %></h2>
+		<ul>
+			<li>VIN: <%= @driver.vin %></li>
+			<li>Car Make: <%= @driver.car_make %></li>
+			<li>Car Model: <%= @driver.car_model %></li>
+			<li>Average rating: <%= @driver.get_average_rating %></li>
+			<li>Total earnings: $<%= @driver.get_total_earnings %></li>
+			<li>Status: <%= @driver.get_status %></li>
+		</ul>
+	</section>
+
+	<section class="options">
+		<h3> Options </h3>
+		<ul>
+			<li><%= link_to "Edit", edit_driver_path %></li>
+			<li><%= button_to "Deactivate", mark_driver_deactivated_path(@driver.id),
+				method: :patch, :disabled => @driver.has_in_progress_trip?, data: { confirm: 'Are you sure?' } %></li>
+		</ul>
+	</section>
+
+	<section class="trips">
+		<h3>Trips</h3>
+    <%= render partial: "shared/table", locals: { table_trips: @driver.trips, is_allowed_to_rate: false } %>
+  </section>
+
+	<% else %> <!-- driver is deactivated-->
+			<section class="deactivated-message">Driver #<%= @driver.id %> is deactivated!<section>
+	<% end %>

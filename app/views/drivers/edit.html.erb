@@ -1,0 +1,5 @@
+<% if !@driver.is_deactivated %>
+	<%= render partial: "form", locals: { form_title: "Edit #{@driver.name}" } %>
+<% else %>
+	<section class="deactivated-message">Driver #<%= @driver.id %> is deactivated!<section>
+<% end %>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RideshareRails</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <div class="dropdown">
+          <button class="dropbtn"><%= link_to "Rideshare Rails!", root_path %></button>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Drivers</button>
+            <div class="dropdown-content">
+              <%= link_to "Driver List", drivers_path %>
+              <%= link_to "Add a Driver", new_driver_path %>
+            </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Passengers</button>
+            <div class="dropdown-content">
+              <%= link_to "Passenger List", passengers_path %>
+              <%= link_to "Add a Passenger", new_passenger_path %>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="flash-message">
+    <% flash.each do |key, value| %>
+    <div><%= value %></div>
+    <% end %>
+  </div>
+
+  <main>
+    <%= yield %>
+  </main>
+
+  <footer>
+    <div>Copyright © 2018</div>
+  </footer>
+
+</body>
+</html>

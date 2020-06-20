@@ -1,0 +1,30 @@
+<h1 class="page-header">Passenger Info</h1>
+
+<% if !@passenger.is_deactivated%>
+
+    <section class="user-info">
+      <h2 class="page-subheader"><%= @passenger.name %></h2>
+      <ul>
+        <li>Phone number: <%= @passenger.phone_num %></li>
+        <li>Total charges: $<%= @passenger.get_total_charged %></li>
+      </ul>
+    </section>
+
+    <section class="options">
+      <h3> Options </h3>
+      <ul>
+        <li><%= link_to "New Trip", passenger_trips_path(@passenger.id), method: :post %></li>
+        <li><%= link_to "Edit", edit_passenger_path %></li>
+        <li><%= button_to "Deactivate", mark_passenger_deactivated_path(@passenger.id),
+          method: :patch, :disabled => @passenger.has_in_progress_trip?, data: { confirm: 'Are you sure?' } %></li>
+      </ul>
+    </section>
+
+    <section class="trips">
+      <h3>Trips</h3>
+      <%= render partial: "shared/table", locals: {table_trips: @passenger.trips, is_allowed_to_rate: true } %>
+    </section>
+
+<% else %> <!-- passenger is deactivated-->
+  <section class="deactivated-message">Passenger #<%= @passenger.id %> has been deactivated.</section>
+<% end %>
