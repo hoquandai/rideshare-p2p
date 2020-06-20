@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RideshareRails</title>
+  <title>Rideshare Peer-To-Peer</title>
   <%= csrf_meta_tags %>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
-<body>
+<body style="background-image: url(<%= asset_path 'rideshare-bg.jpg' %>)">
   <header>
     <nav>
       <ul>
         <li>
           <div class="dropdown">
-          <button class="dropbtn"><%= link_to "Rideshare Rails!", root_path %></button>
+          <button class="dropbtn"><%= link_to "Home", root_path %></button>
           </div>
         </li>
         <li>
@@ -48,7 +48,7 @@
   </main>
 
   <footer>
-    <div>Copyright © 2018</div>
+    <div>Rideshare Peer-To-Peer</div>
   </footer>
 
 </body>

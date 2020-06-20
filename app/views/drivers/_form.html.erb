@@ -10,26 +10,26 @@
 <section class="form">
   <%= form_for @driver do |f| %>
 
-    <%= f.label :name %>
-    <%= f.text_field :name %>
+    <%= f.label :name, class: 'name mt20' %>
+    <%= f.text_field :name, class: 'name' %>
 
-    <%= f.label :is_available %>
-    <%= f.check_box :is_available, :disabled => @driver.has_in_progress_trip? %>
+    <%= f.label :is_available, class: 'is_available mt20'%>
+    <%= f.check_box :is_available, :disabled => @driver.has_in_progress_trip?, class: 'is_available' %>
 
-    <%= f.label :vin %>
-    <%= f.text_field :vin %>
+    <%= f.label :vin , class: 'vin mt20'%>
+    <%= f.text_field :vin, class: 'vin' %>
 
-  	<%= f.label :car_make %>
-  	<%= f.select :car_make, ["Ford", "Honda", "Hyundai", "Nissan", "Toyota"] %>
+  	<%= f.label :car_make, class: 'car_make mt20' %>
+  	<%= f.select :car_make, ["Ford", "Honda", "Hyundai", "Nissan", "Toyota"] , class: 'car_make'%>
 
-  	<%= f.label :car_model %>
+  	<%= f.label :car_model, class: 'car_model mt20'%>
   	<%= f.select :car_model, [
       "Escape", "Focus", "Fiesta", "Accord", "Civic", "CR-V", "Elantra",
       "Santa Fe", "Sonata", "Altma", "Leaf", "PathFinder",
   		"RAV4", "Prius", "Camry"
-    ] %>
+    ], class: 'car_model' %>
 
-  <%= f.submit  %>
+  <%= f.submit %>
 
   <% end %>
 </section>

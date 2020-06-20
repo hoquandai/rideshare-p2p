@@ -2,6 +2,6 @@
 <ul class="user-list">
   <% @passengers.each do |passenger| %>
     <% next if passenger.is_deactivated %>
-    <li><%= link_to passenger.name, passenger_path(passenger.id) %>: Phone: <%= passenger.phone_num %></li>
+    <li><%= link_to passenger.name, passenger_path(passenger.id), class: 'driver-name' %><span class='status'>Phone: <%= passenger.phone_num %></span></li>
   <% end%>
 </ul>

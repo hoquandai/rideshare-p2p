@@ -8079,3 +8079,749 @@ Processing by DriversController#index as HTML
 Completed 200 OK in 41ms (Views: 32.1ms | ActiveRecord: 7.2ms)
 
 
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:38:35 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.1ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 378ms (Views: 365.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:42:42 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.0ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:43:04 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (6.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 123ms (Views: 114.6ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:44:57 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.6ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 93ms (Views: 84.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:45:05 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (71.6ms)
+Completed 200 OK in 112ms (Views: 104.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:46:42 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.9ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:52:07 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (106.1ms)
+Completed 200 OK in 176ms (Views: 162.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:52:15 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.9ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 39ms (Views: 34.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:53:12 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.8ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 74ms (Views: 71.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:54:10 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.5ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:55:05 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:56:07 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 87ms (Views: 75.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:56:34 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 68ms (Views: 63.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:57:24 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:58:31 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.5ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 64ms (Views: 59.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 19:59:17 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (4.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 60ms (Views: 54.3ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:01:20 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.1ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/drivers/20" for 127.0.0.1 at 2020-06-20 20:01:44 +0700
+Processing by DriversController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mDriver Load (12.8ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering drivers/show.html.erb within layouts/application
+  [1m[36mTrip Load (3.3ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."driver_id" = $1[0m  [["driver_id", 20]]
+  [1m[36mPassenger Load (1.8ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 57], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 138], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.1ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 161], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 288], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 133], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 179], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (8.6ms)
+  Rendered drivers/show.html.erb within layouts/application (86.7ms)
+Completed 200 OK in 140ms (Views: 104.1ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:01:48 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:02:50 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:03:07 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:03:14 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (3.8ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 44ms (Views: 37.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:03:17 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (23.1ms)
+  Rendered drivers/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 57ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:03:19 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (1.6ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/passengers/new" for 127.0.0.1 at 2020-06-20 20:03:20 +0700
+Processing by PassengersController#new as HTML
+  Rendering passengers/new.html.erb within layouts/application
+  Rendered passengers/_form.html.erb (9.6ms)
+  Rendered passengers/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 71ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:03:23 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (6.8ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 55ms (Views: 46.8ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:03:24 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (8.0ms)
+  Rendered drivers/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:03:29 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:03:30 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (3.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 66ms (Views: 61.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:03:35 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (4.8ms)
+  Rendered drivers/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:13:56 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (12.3ms)
+  Rendered drivers/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 81ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:14:07 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (3.8ms)
+  Rendered drivers/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 62ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:14:38 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (3.6ms)
+  Rendered drivers/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:16:30 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (5.6ms)
+  Rendered drivers/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:16:51 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (6.9ms)
+  Rendered drivers/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 119ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:18:31 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (5.7ms)
+  Rendered drivers/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:23:20 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (5.9ms)
+  Rendered drivers/new.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL, expecting '='
+...uffer.append=( f.submit, class: 'mt20' );@output_buffer.safe...
+...                         ^~~~~~:
+  app/views/drivers/_form.html.erb:32:in `'
+  app/views/drivers/new.html.erb:1:in `_app_views_drivers_new_html_erb__1859510283868057888_70171702932940'
+
+Started POST "/__better_errors/6f9a113abad1249c/variables" for 127.0.0.1 at 2020-06-20 20:23:21 +0700
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:23:32 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (8.1ms)
+  Rendered drivers/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:24:22 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (3.3ms)
+  Rendered drivers/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:25:30 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (3.9ms)
+  Rendered drivers/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/drivers" for 127.0.0.1 at 2020-06-20 20:25:39 +0700
+Processing by DriversController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xdIFvyeuRrTlaHjJoqkAFCD9NMMm5XMlv9vByaNujCUmjE0zVMW0cGPp8d/5XiTmH772hMQc2Jofqr4HJWkYCA==", "driver"=>{"name"=>"", "is_available"=>"0", "vin"=>"", "car_make"=>"Ford", "car_model"=>"Escape"}, "commit"=>"Create Driver"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (3.5ms)
+  Rendered drivers/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 49ms (Views: 36.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:25:50 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 47ms (Views: 40.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:25:52 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (3.4ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 67ms (Views: 58.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:25:54 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (2.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 107ms (Views: 100.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/passengers/new" for 127.0.0.1 at 2020-06-20 20:26:01 +0700
+Processing by PassengersController#new as HTML
+  Rendering passengers/new.html.erb within layouts/application
+  Rendered passengers/_form.html.erb (3.1ms)
+  Rendered passengers/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:26:03 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (3.4ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 92ms (Views: 86.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/passengers/48" for 127.0.0.1 at 2020-06-20 20:26:07 +0700
+Processing by PassengersController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[36mPassenger Load (0.4ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  Rendering passengers/show.html.erb within layouts/application
+  [1m[36mTrip Load (1.4ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."passenger_id" = $1 AND ("trips"."rating" IS NOT NULL)[0m  [["passenger_id", 48]]
+  [1m[36mTrip Load (1.1ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."passenger_id" = $1[0m  [["passenger_id", 48]]
+  [1m[36mDriver Load (3.1ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (7.7ms)
+  Rendered passengers/show.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 65ms (Views: 52.6ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:26:08 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (8.6ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 131ms (Views: 120.4ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:26:29 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (5.0ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 84ms (Views: 69.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:27:21 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (16.5ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 85ms (Views: 65.9ms | ActiveRecord: 16.5ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:27:40 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (2.9ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 93ms (Views: 88.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:27:55 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (2.7ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 58ms (Views: 52.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:28:06 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (4.0ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 75ms (Views: 69.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:29:28 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (1.6ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 62ms (Views: 57.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:29:30 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:29:32 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (17.8ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 107ms (Views: 88.1ms | ActiveRecord: 17.8ms)
+
+
+Started GET "/passengers/new" for 127.0.0.1 at 2020-06-20 20:29:49 +0700
+Processing by PassengersController#new as HTML
+  Rendering passengers/new.html.erb within layouts/application
+  Rendered passengers/_form.html.erb (4.1ms)
+  Rendered passengers/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passengers/new" for 127.0.0.1 at 2020-06-20 20:31:10 +0700
+Processing by PassengersController#new as HTML
+  Rendering passengers/new.html.erb within layouts/application
+  Rendered passengers/_form.html.erb (2.3ms)
+  Rendered passengers/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:31:27 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (2.3ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:31:43 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:32:02 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:32:05 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (3.0ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 156ms (Views: 142.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:32:09 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:34:42 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 88ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:34:43 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:35:24 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 111ms (Views: 102.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:37:36 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (1.7ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 155ms (Views: 150.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:38:33 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 69ms (Views: 66.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/drivers/new" for 127.0.0.1 at 2020-06-20 20:38:36 +0700
+Processing by DriversController#new as HTML
+  Rendering drivers/new.html.erb within layouts/application
+  Rendered drivers/_form.html.erb (15.5ms)
+  Rendered drivers/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 67ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/drivers" for 127.0.0.1 at 2020-06-20 20:38:52 +0700
+Processing by DriversController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mMsERsa9+DvyT/koIhv+7naJlL/5qw8hFxk+btD9Ix0++OSlGbqKG4oUEaIhR7CW5Aco33zpThuEdDXHXxTFgg==", "driver"=>{"name"=>"HoDai", "is_available"=>"1", "vin"=>"ABC", "car_make"=>"Honda", "car_model"=>"Fiesta"}, "commit"=>"Create Driver"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (19.4ms)[0m  [1m[32mINSERT INTO "drivers" ("name", "vin", "car_make", "car_model", "created_at", "updated_at", "is_available") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "HoDai"], ["vin", "ABC"], ["car_make", "Honda"], ["car_model", "Fiesta"], ["created_at", "2020-06-20 13:38:52.544717"], ["updated_at", "2020-06-20 13:38:52.544717"], ["is_available", "t"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/drivers/101
+Completed 302 Found in 27ms (ActiveRecord: 20.6ms)
+
+
+Started GET "/drivers/101" for 127.0.0.1 at 2020-06-20 20:38:52 +0700
+Processing by DriversController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[36mDriver Load (2.3ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 101], ["LIMIT", 1]]
+  Rendering drivers/show.html.erb within layouts/application
+  [1m[36mTrip Load (3.3ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."driver_id" = $1[0m  [["driver_id", 101]]
+  Rendered shared/_table.html.erb (2.0ms)
+  Rendered drivers/show.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 54ms (Views: 45.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:39:02 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/drivers/21" for 127.0.0.1 at 2020-06-20 20:39:47 +0700
+Processing by DriversController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mDriver Load (1.2ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering drivers/show.html.erb within layouts/application
+  [1m[36mTrip Load (1.1ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."driver_id" = $1[0m  [["driver_id", 21]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 63], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 257], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.1ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 254], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.6ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 179], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 69], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.4ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 59], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 243], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 289], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 211], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.5ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 104], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 213], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (34.4ms)
+  Rendered drivers/show.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 103ms (Views: 90.4ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/passengers" for 127.0.0.1 at 2020-06-20 20:40:40 +0700
+Processing by PassengersController#index as HTML
+  Rendering passengers/index.html.erb within layouts/application
+  [1m[36mPassenger Load (1.4ms)[0m  [1m[34mSELECT "passengers".* FROM "passengers" ORDER BY "passengers"."name" ASC[0m
+  Rendered passengers/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 82ms (Views: 76.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/passengers/48" for 127.0.0.1 at 2020-06-20 20:41:06 +0700
+Processing by PassengersController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  Rendering passengers/show.html.erb within layouts/application
+  [1m[36mTrip Load (0.5ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."passenger_id" = $1 AND ("trips"."rating" IS NOT NULL)[0m  [["passenger_id", 48]]
+  [1m[36mTrip Load (0.4ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."passenger_id" = $1[0m  [["passenger_id", 48]]
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (4.0ms)
+  Rendered passengers/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 52ms (Views: 46.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:41:38 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (1.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 82ms (Views: 71.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/passengers/48/trips" for 127.0.0.1 at 2020-06-20 20:42:09 +0700
+Processing by TripsController#create as HTML
+  Parameters: {"authenticity_token"=>"jBdl3UV91OMjbESC/stvmg1CnsY2cB7QmJtvLtEe8CY0zZcNwy2o0aWycMIWPt8STmDZTrFKDLS8N1OLo8xwyA==", "passenger_id"=>"48"}
+  [1m[36mDriver Load (1.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."is_available" = $1[0m  [["is_available", "t"]]
+  [1m[36mPassenger Load (0.3ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (7.5ms)[0m  [1m[32mINSERT INTO "trips" ("date", "cost", "created_at", "updated_at", "driver_id", "passenger_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["date", "2020-06-20"], ["cost", 1370], ["created_at", "2020-06-20 13:42:09.368063"], ["updated_at", "2020-06-20 13:42:09.368063"], ["driver_id", 19], ["passenger_id", 48]]
+  [1m[35mSQL (1.2ms)[0m  [1m[33mUPDATE "drivers" SET "is_available" = $1, "updated_at" = $2 WHERE "drivers"."id" = $3[0m  [["is_available", "f"], ["updated_at", "2020-06-20 13:42:09.377828"], ["id", 19]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/trips/604
+Completed 302 Found in 24ms (ActiveRecord: 11.2ms)
+
+
+Started GET "/trips/604" for 127.0.0.1 at 2020-06-20 20:42:09 +0700
+Processing by TripsController#show as HTML
+  Parameters: {"id"=>"604"}
+  [1m[36mTrip Load (3.4ms)[0m  [1m[34mSELECT  "trips".* FROM "trips" WHERE "trips"."id" = $1 LIMIT $2[0m  [["id", 604], ["LIMIT", 1]]
+  Rendering trips/show.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (5.0ms)
+  Rendered trips/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 114ms (Views: 105.1ms | ActiveRecord: 3.9ms)
+
+
+Started PATCH "/trips/604" for 127.0.0.1 at 2020-06-20 20:43:01 +0700
+Processing by TripsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0fnjQCwrycAxSggaq/+EfN8Wgx7biZvFpxuFDi2iIaZpIxGQqnu18reUPFpDCjT0nDTEllyziaGDt7mrX3ChSA==", "trip"=>{"rating"=>"5"}, "commit"=>"Update Trip", "id"=>"604"}
+  [1m[36mTrip Load (0.2ms)[0m  [1m[34mSELECT  "trips".* FROM "trips" WHERE "trips"."id" = $1 LIMIT $2[0m  [["id", 604], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "trips" SET "rating" = $1, "updated_at" = $2 WHERE "trips"."id" = $3[0m  [["rating", 5], ["updated_at", "2020-06-20 13:43:01.448711"], ["id", 604]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/trips/604
+Completed 302 Found in 31ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/trips/604" for 127.0.0.1 at 2020-06-20 20:43:01 +0700
+Processing by TripsController#show as HTML
+  Parameters: {"id"=>"604"}
+  [1m[36mTrip Load (1.1ms)[0m  [1m[34mSELECT  "trips".* FROM "trips" WHERE "trips"."id" = $1 LIMIT $2[0m  [["id", 604], ["LIMIT", 1]]
+  Rendering trips/show.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.3ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (3.3ms)
+  Rendered trips/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 47ms (Views: 41.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:43:08 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (0.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/drivers/19" for 127.0.0.1 at 2020-06-20 20:43:48 +0700
+Processing by DriversController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mDriver Load (1.0ms)[0m  [1m[34mSELECT  "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering drivers/show.html.erb within layouts/application
+  [1m[36mTrip Load (0.3ms)[0m  [1m[34mSELECT "trips".* FROM "trips" WHERE "trips"."driver_id" = $1[0m  [["driver_id", 19]]
+  [1m[36mPassenger Load (0.4ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.3ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 164], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.4ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.6ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 62], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 143], ["LIMIT", 1]]
+  [1m[36mPassenger Load (0.2ms)[0m  [1m[34mSELECT  "passengers".* FROM "passengers" WHERE "passengers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  Rendered shared/_table.html.erb (34.4ms)
+  Rendered drivers/show.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 92ms (Views: 84.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:44:02 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-06-20 20:44:30 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 63ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/drivers" for 127.0.0.1 at 2020-06-20 20:44:32 +0700
+Processing by DriversController#index as HTML
+  Rendering drivers/index.html.erb within layouts/application
+  [1m[36mDriver Load (3.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" ORDER BY "drivers"."name" ASC[0m
+  Rendered drivers/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 55ms (Views: 49.1ms | ActiveRecord: 3.3ms)
+
+

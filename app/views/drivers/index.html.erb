@@ -1,7 +1,7 @@
-<h1 class="page-header">All Drivers</h1>
+<h1 class="page-header">Drivers List</h1>
 <ul class="user-list">
   <% @drivers.each do |driver| %>
     <% next if driver.is_deactivated %>
-  	<li><%= link_to driver.name, driver_path(driver.id) %>: <%= driver.get_status %></li>
+  	<li><%= link_to driver.name, driver_path(driver.id), class: 'driver-name' %> <span class='status'> <%= driver.get_status %></span></li>
   <% end %>
 </ul>
